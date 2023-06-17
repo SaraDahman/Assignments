@@ -1,0 +1,16 @@
+header {
+  background-image: url('../../assets/desert.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  padding: 2rem;
+}
+
+header h1 {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
