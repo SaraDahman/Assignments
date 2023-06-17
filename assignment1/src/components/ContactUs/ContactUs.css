@@ -50,6 +50,11 @@
   padding: 0.3rem;
 }
 
+#contact-us form input:focus,
+#contact-us form textarea:focus {
+  outline: none;
+}
+
 #contact-us form textarea {
   resize: none;
 }
