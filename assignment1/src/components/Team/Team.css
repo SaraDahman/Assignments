@@ -1,0 +1,55 @@
+#team {
+  padding: 5rem 2rem;
+}
+
+#team .team-intro {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#team .team-intro h2 {
+  font-size: 2rem;
+}
+
+#team .team-intro p {
+  font-size: 1.4rem;
+}
+
+#team .team-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 1.5rem;
+}
+
+#team .team-container .team-card {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#team .team-container .team-card img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#team .team-container .team-card .name {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  #team .team-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  #team .team-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
