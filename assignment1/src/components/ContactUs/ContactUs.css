@@ -50,6 +50,10 @@
   padding: 0.3rem;
 }
 
+#contact-us form textarea {
+  resize: none;
+}
+
 #contact-us form label {
   margin: 0.3rem;
 }
